@@ -2,7 +2,7 @@
 datadir="{{ proxysql_datadir }}"
 restart_on_missing_heartbeats={{ proxysql_restart_missing_heartbeats }}
 pidfile="{{ proxysql_pidfile }}"
-errorlog="{{ proxysql_errorlog_dir }}""{{ proxysql_errorlog_filename}}"
+errorlog="{{ proxysql_errorlog_dir }}/{{ proxysql_errorlog_filename }}"
 
 admin_variables=
 {

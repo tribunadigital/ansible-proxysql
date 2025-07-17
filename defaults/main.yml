@@ -11,7 +11,7 @@ proxysql_group: proxysql
 proxysql_datadir: /var/lib/proxysql
 proxysql_pidfile: "{{ proxysql_datadir }}/proxysql.pid"
 proxysql_config_client_file: /root/.proxysql.cnf
-proxysql_errorlog_dir: /var/log/proxysql/
+proxysql_errorlog_dir: /var/log/proxysql
 proxysql_errorlog_filename: proxysql.log
 proxysql_restart_missing_heartbeats: 10
 
