@@ -15,7 +15,9 @@ proxysql_errorlog_dir: /var/log/proxysql
 proxysql_errorlog_filename: proxysql.log
 proxysql_restart_missing_heartbeats: 10
 
-proxysql_additional_packages: []
+proxysql_pip_use: false
+proxysql_additional_packages:
+  - python3-pymysql
   # - percona-server-client-{{ proxysql_mysql_client_version }}
   # - python3-mysqldb
 

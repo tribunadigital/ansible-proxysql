@@ -19,6 +19,7 @@
       pip:
         name: "{{ proxysql_python_packages }}"
         executable: pip3
+      when: proxysql_pip_use | bool
 
   rescue:
 
